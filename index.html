@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>All About Math</title>
+        <style>
+            .accordion {
+                background-color: #eee;
+                color: #444;
+                cursor: pointer;
+                padding: 18px;
+                width: 100%;
+                border:none;
+                text-align: left;
+                outline: none;
+                font-size: 15px;
+                transition: 0.4s;
+
+            }
+
+            .active, .accordion:hover {
+                background-color: #d48be2;
+            }
+            .panel{
+                padding: 0 18px;
+                display: none;
+                background-color: white;
+                overflow: hidden;
+            }
+            h1{
+                color:blueviolet; 
+                font-size:100px;
+                
+            }
+            h2{
+                color:darkblue;
+            }
+            body{
+                background-image: radial-gradient(white, rgba(137, 43, 226, 0.658));
+            }
+            
+            h1{
+                text-align: center;
+            }
+
+            h2{
+                text-align:center;
+            
+            }
+            
+            p{
+                text-align: left;
+            }
+
+            p1{
+                text-align: left;
+            }
+        </style>
+
+    </head>
+    
+    <body>
+        <h1>All About Math</h1>
+        <h2>Made by students for students! Math doesn't have to be scary! :)</h2>
+        <h3>Websites for you: Khan Academy, Mathigon, Brilliant.org, and Mathway</h3>
+        <button class="accordion">Grade 9</button>
+        <div class="panel">
+            <h3>Math - Destreamed</h3>
+            <p>The Grade 9 De-streamed Mathematics curriculum in Ontario, introduced in September 2022, focuses on providing a more inclusive and accessible math education for all students. This de-streaming initiative eliminates the previous practice of separating students into applied and academic streams at the beginning of high school, which had often led to inequities in educational opportunities.</p>
+                
+                <h4>Key Features of the Curriculum:</h4>
+                <p>Foundational Concepts:</p>
+                
+                <p>The curriculum emphasizes fundamental mathematical skills that are essential for further studies and practical applications in the real world. These skills are organized into various strands such as number sense, algebra, data management, and geometry.
+                Strands:</p>
+                
+                <p>Number Sense and Algebra: This strand includes operations with integers, rational numbers, and algebraic expressions. Students learn to simplify expressions, solve equations, and understand relationships between variables.
+                Linear Relations: Students explore linear equations, graphing, and the concepts of slope and y-intercept. This is key for later learning in more advanced math courses.
+                Geometry and Measurement: Topics include properties of shapes, geometric transformations, area and volume calculations, and trigonometry.
+                Data Management and Probability: The curriculum introduces students to analyzing data, interpreting graphs, and understanding basic probability concepts. Statistical literacy is a key component here.
+                Critical Thinking and Problem Solving:</p>
+                
+                <p>Emphasis is placed on the development of problem-solving skills and mathematical reasoning. Students are encouraged to approach problems from multiple angles, apply strategies, and explain their reasoning.</p>
+                <h4>Here is a course description to assist in future course choices and a formula sheet displaying all necessary formulas needed to pass grade 9 destreamed mathermatics:</h4>
+                <a href="url">https://assets-us-01.kc-usercontent.com/fbd574c4-da36-0066-a0c5-849ffb2de96e/e9379678-f1bc-4be9-9fb0-84593dba013c/Prerequisite%20Chart3.svg </a>
+                <a href="url">https://www.eqao.com/wp-content/uploads/2021/09/g9-formula-sheet.pdf</a>
+        </div>
+        <button class="accordion">Grade 10</button>  
+        <div class="panel">
+            <h3>Academic:</h3>
+            <p>Grade 10 Academic Mathematics (MTH1W)</p>
+                <p>Focus: This course builds on the de-streamed Grade 9 math curriculum, with a focus on abstract concepts and problem-solving.</p>
+                <p>Key Topics:</p>
+                <p>Algebra: Linear relations, factoring, and solving quadratic equations.</p>
+                <p>Geometry: Properties of shapes, transformations, and trigonometry.</p>
+                <p>Measurement and Data: Volume, surface area, and data analysis.</p>
+                <p>Skills: Emphasis on mathematical reasoning, critical thinking, and application to real-world problems.</p>
+            <h3>Applied:</h3>
+            <p>Focus: A more concrete and practical approach to mathematics with an emphasis on real-life applications.</p>
+            <p>Key Topics:</p>
+            <p>Linear Relations: Understanding and solving linear equations.</p>
+            <p>Geometry: Exploring properties and measurement of geometric shapes.</p>
+            <p>Data Management: Analyzing and interpreting data for decision-making.</p>
+            <h5>Here is a sheet with formulas you may be familiar with or have previously learned and will need to successfully complete up to Grade 10 Academic Mathematics</h5>
+            <a href="url">https://canadiantestcentre.com/wp-content/uploads/2022/03/Gr_10_ON_Formula_Sheet.pdf</a>
+        </div>
+        <button class="accordion">Grade 11</button>
+        <div class="panel">
+            <p>gibber jabber</p>
+        </div>
+         <button class="accordion">Grade 12</button>
+        <div class="panel">
+            <h3></h3>
+
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i=0; i < acc.length; i++){
+                acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block"){
+                        panel.style.display = "none";
+                    } else{
+                        panel.style.display = "block";
+                    }
+                });
+            }
+        </script>
+        
+        
+        
+        
+        </div>
+    </body>
+    
+</html>
